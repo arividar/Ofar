@@ -15,8 +15,12 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\Index.cshtml" />
+    <Content Remove="Pages\Bleh.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Pages\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\Bleh.cshtml.cs" />
   </ItemGroup>
 </Project>
