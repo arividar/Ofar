@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofar", "Ofar\Ofar.csproj", "{4DFA9E7B-79FB-45DC-9236-AAF031018A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfarEntities", "OfarEntities\OfarEntities.csproj", "{84319530-C931-4918-9162-B124AE2AFCF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{4DFA9E7B-79FB-45DC-9236-AAF031018A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DFA9E7B-79FB-45DC-9236-AAF031018A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DFA9E7B-79FB-45DC-9236-AAF031018A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84319530-C931-4918-9162-B124AE2AFCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84319530-C931-4918-9162-B124AE2AFCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84319530-C931-4918-9162-B124AE2AFCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84319530-C931-4918-9162-B124AE2AFCF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
