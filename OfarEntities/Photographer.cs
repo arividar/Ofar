@@ -9,6 +9,6 @@ namespace OfarEntities
         public string LastName { get; set; }
         public DateTime? BirthDate { get; set; }
         public string Country { get; set; }
-	public string Genre { get; set; }
+	    public string Genre { get; set; }
     }
 }

@@ -1,0 +1,16 @@
+﻿@page
+@model Ofar.Pages.PhotographyGenresModel
+<div class="row">
+    <h1 class="display-2">Photography Genres</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr><th>Photography Genres</th></tr>
+        </thead>
+        <tbody>
+            @foreach (string name in Model.Photographers)
+            {
+                <tr><td>@name</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

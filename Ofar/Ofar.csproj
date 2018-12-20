@@ -16,6 +16,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\Index.cshtml" />
     <Content Remove="Pages\Bleh.cshtml" />
+    <Content Remove="wwwroot\bleh.html" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Pages\index.html" />
