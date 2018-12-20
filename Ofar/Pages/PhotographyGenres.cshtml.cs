@@ -23,7 +23,7 @@ namespace Ofar.Pages
         };
 
 
-        public IEnumerable<string> Photographers
+        public IEnumerable<string> PhotographyGenres
         {
             get
             {
