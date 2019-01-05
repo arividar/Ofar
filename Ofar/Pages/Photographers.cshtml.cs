@@ -24,21 +24,14 @@ namespace Ofar.Pages
             "Amanda Mustard", "Olivia Bee", "Jimmy Nelsson"
         };
 
-        public IEnumerable<string> Photographers
-        {
-            get
-            {
-                return from p
-                       in this.photographers
-                       orderby p
-                       select p;
-            }
-        }
+        public IEnumerable<string> Photographers => from p
+                                                    in this.photographers
+                                                    orderby p
+                                                    select p;
 
         public void OnGet()
         {
             ViewData["Title"] = "Ofar Photography - Photographers";
-
         }
     }
 }
